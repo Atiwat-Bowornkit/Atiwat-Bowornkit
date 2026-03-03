@@ -21,13 +21,19 @@
       <td width="55%" align="center" valign="top">
         <br></br>
         <img src="https://skillicons.dev/icons?i=py,html,css,mysql,vscode"/>  
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Atiwat-Bowornkit&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=33d17a" width="100%" />  
         <div align="center">
         <img src="https://github-readme-activity-graph.vercel.app/graph?username=Atiwat-Bowornkit&bg_color=0d1117&color=33d17a&line=33d17a&point=ffffff&hide_border=true" width="100%" />
         </div>
         <div align="center">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Atiwat-Bowornkit&theme=radical" />
         </div>
+    <p align="center">
+  <a href="https://www.youtube.com/watch?v=80islLpIrLs" target="_blank">
+    <img src="https://img.youtube.com/vi/80islLpIrLs/maxresdefault.jpg" alt="Ruri Dragon PV" width="600" style="border-radius: 15px; border: 3px solid #33d17a;">
+    <br>
+    <sub>▶️ Click to watch: Ruri Dragon × ZUTOMAYO - MIRROR TUNE</sub>
+  </a>
+</p>
         <br>
       </td>
     </tr>
