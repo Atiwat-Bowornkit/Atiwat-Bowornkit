@@ -19,52 +19,56 @@
 
 <img src="./divider.svg" width="100%" alt="" />
 
-<!-- ============ RURI GALLERY (ส่วนหลักของหน้า) ============ -->
+<!-- ============ RURI GALLERY ============ -->
 <p align="center"><img src="./title-gallery.svg" width="100%" alt="Ruri gallery" /></p>
 
-<!-- รูปเด่น: รูปใหญ่ตรงกลาง เปลี่ยนเป็นรูปที่ชอบที่สุดได้ -->
+<!--
+  เลย์เอาต์ bento: ทุกแถวสูงเท่ากันและขอบตรงกัน เพราะความกว้างคำนวณจากสัดส่วนรูป
+  แถวบน  = รูปแนวตั้ง 9:16 (23.5%) + รูปแนวนอน 16:9 (74.5%)
+  แถวล่าง = รูปแนวนอน 16:9 สามรูป (32.4% ต่อรูป)
+  ถ้าเปลี่ยนรูป ให้ใช้รูปสัดส่วนเดียวกับตำแหน่งเดิม
+-->
 <p align="center">
-  <img src="./ruridragon-pv.gif" width="80%" alt="Ruri Aoki" />
-</p>
-
-<!-- แถวที่ 1 -->
-<p align="center">
-  <img src="./ruridragon1.gif" width="24%" alt="Ruri Aoki" />
-  <img src="./ruridragon-ruri-dragon%20(2).gif" width="24%" alt="Ruri Aoki" />
-  <img src="./ruridragon-ruri-dragon%20(1).gif" width="24%" alt="Ruri Aoki" />
-  <img src="./ruridragon-ruri-dragon.gif" width="24%" alt="Ruri Aoki" />
+  <img src="./ruridragon1.gif" width="23.5%" alt="Ruri Aoki" />
+  <img src="./ruridragon-pv.gif" width="74.5%" alt="Ruri Aoki" />
+  <br />
+  <img src="./ruridragon-ruri-dragon%20(2).gif" width="32.4%" alt="Ruri Aoki" />
+  <img src="./ruridragon-ruri-dragon%20(1).gif" width="32.4%" alt="Ruri Aoki" />
+  <img src="./ruridragon-ruri-dragon.gif" width="32.4%" alt="Ruri Aoki" />
 </p>
 
 <!--
-  ===== ช่องสำหรับรูปใหม่ =====
-  1. อัปโหลดรูปไว้ในโฟลเดอร์ images/ (เช่น images/ruri-05.gif)
-  2. ลบบรรทัด "<!-" + "-" ด้านบนสุดและ "-" + "->" ด้านล่างสุดของบล็อกนี้ออก
-  3. แก้ชื่อไฟล์ให้ตรงกับรูปจริง  (แถวละ 4 รูป ใช้ width="24%", แถวละ 3 รูป ใช้ width="32%")
+  ===== ช่องสำหรับรูปใหม่ (เอา comment ครอบบล็อกนี้ออกเมื่อมีรูปแล้ว) =====
+  แบบ A: รูปแนวนอน 16:9 แถวละ 3  -> width="32.4%"
+  แบบ B: รูปแนวตั้ง 9:16 แถวละ 4  -> width="24.3%"
+  แบบ C: สลับกับแถวบน = แนวนอน 74.5% + แนวตั้ง 23.5%
+  (อย่าผสมรูปต่างสัดส่วนในแถวเดียวกันด้วยความกว้างเท่ากัน ไม่งั้นความสูงจะไม่ตรง)
 
 <p align="center">
-  <img src="./images/ruri-05.gif" width="24%" alt="Ruri Aoki" />
-  <img src="./images/ruri-06.gif" width="24%" alt="Ruri Aoki" />
-  <img src="./images/ruri-07.gif" width="24%" alt="Ruri Aoki" />
-  <img src="./images/ruri-08.gif" width="24%" alt="Ruri Aoki" />
-</p>
-
-<p align="center">
-  <img src="./images/ruri-09.gif" width="32%" alt="Ruri Aoki" />
-  <img src="./images/ruri-10.gif" width="32%" alt="Ruri Aoki" />
-  <img src="./images/ruri-11.gif" width="32%" alt="Ruri Aoki" />
+  <img src="./images/ruri-05.gif" width="74.5%" alt="Ruri Aoki" />
+  <img src="./images/ruri-06.gif" width="23.5%" alt="Ruri Aoki" />
+  <br />
+  <img src="./images/ruri-07.gif" width="24.3%" alt="Ruri Aoki" />
+  <img src="./images/ruri-08.gif" width="24.3%" alt="Ruri Aoki" />
+  <img src="./images/ruri-09.gif" width="24.3%" alt="Ruri Aoki" />
+  <img src="./images/ruri-10.gif" width="24.3%" alt="Ruri Aoki" />
 </p>
 -->
 
+<img src="./divider.svg" width="100%" alt="" />
+
 <!-- ============ SOUNDTRACK ============ -->
+<p align="center"><img src="./title-soundtrack.svg" width="100%" alt="Soundtrack" /></p>
+
 <p align="center">
   <a href="https://www.youtube.com/watch?v=80islLpIrLs" target="_blank">
-    <img src="https://img.youtube.com/vi/80islLpIrLs/maxresdefault.jpg" width="80%" alt="Ruri Dragon PV" />
+    <img src="https://img.youtube.com/vi/80islLpIrLs/maxresdefault.jpg" width="62%" alt="Ruri Dragon × ZUTOMAYO — MIRROR TUNE" />
   </a>
   <br />
   <sub>♡ Ruri Dragon × ZUTOMAYO — MIRROR TUNE ♡</sub>
   <br /><br />
   <a href="https://youtu.be/80islLpIrLs" target="_blank">
-    <img src="https://img.shields.io/badge/Soundtrack-Play_now-ff8fbf?style=for-the-badge&logo=youtube&logoColor=white" alt="play" />
+    <img src="https://img.shields.io/badge/Play_on_YouTube-ff8fbf?style=for-the-badge&logo=youtube&logoColor=white" alt="Play on YouTube" />
   </a>
 </p>
 
